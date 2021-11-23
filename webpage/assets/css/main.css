@@ -1,0 +1,117 @@
+:root {
+  --e8-color: #e8e8e8;
+  --db-color: #00008b;
+  --gl-color: #bb993a;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: var(--e8-color);
+    color: var(--black-color);
+    direction: rtl;
+    font-family: sahelregular !important;
+}
+
+.navbar {
+    font-family: sahelsemibold;
+    direction: ltr;
+}
+
+#header {
+    background: var(--black-color);
+    color: var(--white-color);
+    text-align: center;
+    font-family: sahelsemibold;
+}
+
+.bg-ghermez {
+    background-color: rgb(78, 8, 8);
+}
+
+#logo {
+    width: 5em;
+    margin: 0.5rem;
+    /* background: rgb(180, 178, 178); */
+    padding: 20% 10%;
+    border-radius: 100%;
+}
+
+#logo img {
+    width: 5em;
+}
+
+#navbartoggle {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+#navbar {
+    list-style: none;
+    margin: 1em;
+}
+#navbar li {
+    display: inline;
+    margin: 1em;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: var(--gl-color);
+}
+
+#navbar a:hover {
+    color: goldenrod;
+}
+
+
+#menulist {
+    direction: rtl;
+}
+
+h1 {
+    font-family: 'sahelblack';
+}
+
+h2 {
+    font-family: 'sahelbold';
+}
+
+h3,h4,h5,h6 {
+    font-family: 'sahelsemibold';
+}
+
+strong {
+    font-family: 'sahelsemibold';
+}
+
+b {
+    font-family: 'sahelbold';
+}
+
+.bg-dark-blue {
+    background: #00008b;
+}
+
+.bg-e8 {
+    background: var(--e8-color);
+}
+
+.bg-golden {
+    background: var(--gl-color);
+}
+
+.text-golden {
+    color: var(--gl-color);
+}
+
+.text-dark-blue {
+    color: var(--db-color);
+}
